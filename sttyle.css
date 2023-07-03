@@ -937,3 +937,51 @@ audio::-webkit-media-controls-mute-button {
     background-color: var(--color-dark-100);
     border-radius: 50%;
 }
+/* Responsive adjustments */
+
+@media (max-width: 576px) {
+    .header li {
+        width: 70%;
+        position: absolute;
+        right: 16%;
+        top: 30%;
+    }
+    main{
+        width: 390px;
+        padding: 0px 10px;
+        flex-direction: column;
+        padding-left: 10%;
+        justify-content: space-between;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+    .left {
+        display: none;
+    }
+
+    .right {
+        width: 90%;
+    }
+
+    .right p {
+        width: 100%;
+        margin: 0px;
+        text-align: left;
+    }
+    footer {
+        height: 100%;
+    }
+
+    footer .main {
+        height: 100%;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        padding-left: 10%;
+    }
+}
