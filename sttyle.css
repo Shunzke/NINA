@@ -28,7 +28,7 @@
 }
 
 body {
-    background: var(--color-gradient);
+    background: var(--color-dark-100);
     max-width: 1380px;
     margin: 0 auto;
 }
